@@ -15,14 +15,14 @@ for i in range(len(varsCopy)):
     varsCopy[i] = truncate(varsCopy[i],7)
 ##########################################################################
 
-vd = 200
+vd = 400
 Vdesired = 200
 f1 = (2*vd/pi)*(1-2*cos(alp1)+2*cos(alp2)-2*cos(alp3)+2*cos(alp4)-2*cos(alp5)+2*cos(alp6))-Vdesired
-f2 = (2*vd/5*pi)*(1-2*cos(5*alp1)+2*cos(5*alp2)-2*cos(5*alp3)+2*cos(5*alp4)-2*cos(5*alp5)+2*cos(5*alp6))
-f3 = (2*vd/7*pi)*(1-2*cos(7*alp1)+2*cos(7*alp2)-2*cos(7*alp3)+2*cos(7*alp4)-2*cos(7*alp5)+2*cos(7*alp6))
-f4 = (2*vd/9*pi)*(1-2*cos(9*alp1)+2*cos(9*alp2)-2*cos(9*alp3)+2*cos(9*alp4)-2*cos(9*alp5)+2*cos(9*alp6))
-f5 = (2*vd/11*pi)*(1-2*cos(11*alp1)+2*cos(11*alp2)-2*cos(11*alp3)+2*cos(11*alp4)-2*cos(11*alp5)+2*cos(11*alp6))
-f6 = (2*vd/13*pi)*(1-2*cos(13*alp1)+2*cos(13*alp2)-2*cos(13*alp3)+2*cos(13*alp4)-2*cos(13*alp5)+2*cos(13*alp6))
+f2 = (2*vd/3*pi)*(1-2*cos(3*alp1)+2*cos(3*alp2)-2*cos(3*alp3)+2*cos(3*alp4)-2*cos(3*alp5)+2*cos(3*alp6))
+f3 = (2*vd/5*pi)*(1-2*cos(5*alp1)+2*cos(5*alp2)-2*cos(5*alp3)+2*cos(5*alp4)-2*cos(5*alp5)+2*cos(5*alp6))
+f4 = (2*vd/7*pi)*(1-2*cos(7*alp1)+2*cos(7*alp2)-2*cos(7*alp3)+2*cos(7*alp4)-2*cos(7*alp5)+2*cos(7*alp6))
+f5 = (2*vd/9*pi)*(1-2*cos(9*alp1)+2*cos(9*alp2)-2*cos(9*alp3)+2*cos(9*alp4)-2*cos(9*alp5)+2*cos(9*alp6))
+f6 = (2*vd/11*pi)*(1-2*cos(11*alp1)+2*cos(11*alp2)-2*cos(11*alp3)+2*cos(11*alp4)-2*cos(11*alp5)+2*cos(11*alp6))
 
 functions = [f1,f2,f3,f4,f5,f6]
 functionsCopy = [0,0,0,0,0,0]
